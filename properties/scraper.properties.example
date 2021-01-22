@@ -1,0 +1,15 @@
+spring.mail.host=
+spring.mail.port=
+spring.mail.username=
+spring.mail.password=
+
+
+spring.mail.protocol=smtps
+spring.mail.properties.mail.transport.protocol=smtps
+spring.mail.properties.mail.smtps.auth=true
+spring.mail.properties.mail.smtps.starttls.enable=true
+spring.mail.properties.mail.smtps.timeout=8000
+
+sender.to=
+sender.from=
+scrapper.cron-expression=0 * * * * *
