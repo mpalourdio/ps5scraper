@@ -16,4 +16,4 @@ No support given, sorry. Take the code and make it work. Life is too short :). I
 
 ## WARNING
 
-Do NOT make a too much agressive cron value, or you'll be banned by websites VERY fast
+Do NOT fill a too much agressive cron value, or you'll be banned by websites VERY fast
