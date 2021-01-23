@@ -16,7 +16,7 @@ import lombok.Getter;
  * 'website' is the url you want to GET
  * 'toCheck' is just a string that needs to be in the body of the HTTP response. If not present, the page has changed, and the PS5 might be there.
  *
- * Want to scrap another website ? And a value to this Enum and let it crawl...
+ * Want to scrap another website ? Add a value to this Enum and let it crawl...
  */
 @Getter
 public enum Crawlables {
