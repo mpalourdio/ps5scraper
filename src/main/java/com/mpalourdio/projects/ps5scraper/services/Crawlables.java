@@ -14,7 +14,7 @@ import lombok.Getter;
 /**
  * 'name' is just the name of the website you crawl
  * 'website' is the url you want to GET
- * 'toCheck' is just a string that needs to be be in the body of the HTTP response. If not present, the page has changed, and the PS5 might be there.
+ * 'toCheck' is just a string that needs to be in the body of the HTTP response. If not present, the page has changed, and the PS5 might be there.
  *
  * Want to scrap another website ? And a value to this Enum and let it crawl...
  */
