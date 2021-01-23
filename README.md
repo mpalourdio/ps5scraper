@@ -10,7 +10,7 @@
 - `./mvnw clean package` to build the final executable
 - `cd target && ./ps5scraper.jar`
 
-## That does not work
+## It does not work
 
 No support given, sorry. Take the code and make it work. Life is too short :). I was just fed-up to `F5` websites...
 
