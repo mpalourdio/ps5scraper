@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.7</version>
+        <version>3.0.1</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.mpalourdio.projects</groupId>
@@ -14,7 +14,7 @@
     <name>ps5scraper</name>
     <description>Scrap Amazon &amp; Co. to check PS5 availability</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
     </properties>
     <repositories>
         <repository>
