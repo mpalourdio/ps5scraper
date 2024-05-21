@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.annotation.PropertySources;
 
-@Configuration
+@Configuration(proxyBeanMethods = false)
 @PropertySources(value = {
         @PropertySource(value = "file:properties/scraper.properties", ignoreResourceNotFound = true),
         @PropertySource(value = "classpath:properties/scraper.properties", ignoreResourceNotFound = true)
