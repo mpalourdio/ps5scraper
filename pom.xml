@@ -16,7 +16,7 @@
     <properties>
         <java.version>21</java.version>
     </properties>
-    <repositories>
+    <!--<repositories>
         <repository>
             <id>spring-milestones</id>
             <name>Spring Milestones</name>
@@ -35,7 +35,7 @@
                 <enabled>false</enabled>
             </snapshots>
         </pluginRepository>
-    </pluginRepositories>
+    </pluginRepositories>-->
 
     <dependencies>
         <dependency>
