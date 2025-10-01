@@ -14,7 +14,8 @@
     <name>ps5scraper</name>
     <description>Scrap Amazon &amp; Co. to check PS5 availability</description>
     <properties>
-        <java.version>21</java.version>
+        <java.version>25</java.version>
+        <maven.compiler.proc>full</maven.compiler.proc>
     </properties>
     <!--<repositories>
         <repository>
