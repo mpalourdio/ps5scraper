@@ -15,7 +15,6 @@
     <description>Scrap Amazon &amp; Co. to check PS5 availability</description>
     <properties>
         <java.version>25</java.version>
-        <maven.compiler.proc>full</maven.compiler.proc>
     </properties>
     <!--<repositories>
         <repository>
@@ -109,6 +108,18 @@
                         </configuration>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <annotationProcessorPaths>
+                        <path>
+                            <groupId>org.projectlombok</groupId>
+                            <artifactId>lombok</artifactId>
+                        </path>
+                    </annotationProcessorPaths>
+                </configuration>
             </plugin>
         </plugins>
     </build>
