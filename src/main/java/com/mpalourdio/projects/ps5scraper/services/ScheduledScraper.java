@@ -11,7 +11,7 @@ package com.mpalourdio.projects.ps5scraper.services;
 
 import com.mpalourdio.projects.ps5scraper.configuration.MailSenderProperties;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.boot.web.client.RestTemplateBuilder;
+import org.springframework.boot.restclient.RestTemplateBuilder;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.scheduling.annotation.Scheduled;
