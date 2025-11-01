@@ -15,9 +15,9 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class Ps5ScraperApplication {
+class Ps5ScraperApplication {
 
-    public static void main(String[] args) {
+static void main(String[] args) {
         SpringApplication.run(Ps5ScraperApplication.class, args);
     }
 }
